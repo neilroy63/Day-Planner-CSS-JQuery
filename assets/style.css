@@ -29,3 +29,13 @@ body{
 h3 {
     margin: 10px 0;
 }
+
+.task {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 6px 0;
+    padding: 18px;
+    overflow:  hidden;
+    
+}
+
