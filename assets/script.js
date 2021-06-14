@@ -3,5 +3,7 @@ $(".textb").on("keyup", function (e) {
   if (e.keyCode == 13 && $(".textb").val() != "") {
     var task = $("<div class='task'></div>").text($(".textb").val());
     $(".notcomp").append(task);
+    // code to help clear the input
+    $(".textb").val("");
   }
 });
