@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(120deg, #fd150a, #18161c);
+    background-image: linear-gradient(120deg, #ffa63c, #18161c);
     min-height: 100vh;
 }
 
@@ -14,5 +14,15 @@ body{
     max-width: 800px;
     margin: auto;
     padding: 10px;
+}
+
+.textb {
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 17px;
 }
 
