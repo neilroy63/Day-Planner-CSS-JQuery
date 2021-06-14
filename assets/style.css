@@ -39,3 +39,8 @@ h3 {
     
 }
 
+.task i {
+    float: right;
+    margin: 22px;
+    cursor: pointer;
+}
