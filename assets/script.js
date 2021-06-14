@@ -13,7 +13,7 @@ $(".textb").on("keyup", function (e) {
     var check = $("<i class='fas fa-check'></i>").click(function () {
       var p = $(this).parent();
       p.fadeOut(function () {
-        $("completed").append(p);
+        $(".completed").append(p);
         p.fadeIn();
       });
       $(this).remove();
